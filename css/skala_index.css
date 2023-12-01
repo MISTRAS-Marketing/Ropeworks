@@ -1,0 +1,365 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------
+[skala_layout.css]
+version: 	  1.0 screen
+created by: Cara C. Carpenter
+-------------------------------------------------------------------*/
+/*General Styles*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body  {
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	background-image: url(../images/back4.gif);
+	background-repeat: repeat;
+}
+.thrColFixHdr  #container{
+	width: 950px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 10px auto;
+	text-align: left;
+	padding: 20px;
+	border-top: 1px solid #CCC;
+	border-right: 1.75px solid #CCC;
+	border-bottom: 1.75px solid #CCC;
+	border-left: 1px solid #CCC;
+} 
+.thrColFixHdr #header {
+	width: 950px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 10px auto;
+	text-align: left;
+	padding: 20px;
+	border-top: 1px solid #CCC;
+	border-right: 1.75px solid #CCC;
+	border-bottom: 1.75px solid #CCC;
+	border-left: 1px solid #CCC;
+}
+.thrColFixHdr #flsh {
+	height: 390px;
+	width: 950px;
+}
+.thrColFixHdr #flsh #flshIn {
+	height: 370px;
+	width: 930px;
+}
+.thrColFixHdr  #mainContent{
+	margin: 0 200px 0 220px; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. You can remove this margin if you want the #mainContent div's text to fill the sidebar spaces when the content in each sidebar ends. */
+	padding: 0 10px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: 400;
+	font-variant: normal;
+	color: #333;
+} 
+.thrColFixHdr #container #mainContent h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #323232;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+} 
+.thrColFixHdr #container #mainContent h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #323232;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+}
+#mainContent .pin_line {
+	margin-bottom: 10px;
+}
+
+/*-------------------End General Styles--------------------*/
+/*General Element Styles*/
+ul {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+}
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+a {
+}
+/*-------------------End General Element--------------------*/
+/*sidebar1 Styles*/
+.thrColFixHdr  #sidebar1{
+	float: left; /* since this element is floated, a width must be given */
+	width: 170px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	background: #FFF url(../images/greybar2.gif) repeat-y; /* padding keeps the content of the div away from the edges */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+	border: 0px solid #CCC;
+	clear: left;
+	padding-top: 0px;
+	padding-right: 25px;
+	padding-left: 10px;
+}
+.thrColFixHdr #container div #sidebar1 ul {
+	list-style: outside;
+	padding: 1em;
+	color: #666;
+}
+.thrColFixHdr #container div #sidebar1 li {
+	border-bottom: 1px solid #B7C7F3;
+	list-style: none;
+}
+.thrColFixHdr #container div #sidebar1 li a {
+	color: #000;
+	text-decoration: none;
+}
+.thrColFixHdr #container div #sidebar1 p {
+	margin-left: 15px;
+}
+#sidebar1 h3 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #313131;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+#container div #sidbar1_top {
+	background-repeat: no-repeat;
+	float: left; /* since this element is floated, a width must be given */
+	border: 0px solid #CCC;
+	clear: left;
+	padding-right: 25px;
+	padding-left: 10px;
+	width: 170px;
+	height: 20px;
+	background-image: url(../images/BUTTON_top.gif);
+	margin-left: -10px;
+}
+#container div #sidbar1_bottom {
+	background-repeat: no-repeat;
+	float: left; /* since this element is floated, a width must be given */
+	border: 0px solid #CCC;
+	clear: left;
+	padding-right: 25px;
+	padding-left: 10px;
+	width: 170px;
+	height: 20px;
+	background-image: url(../images/BUTTON_bottom.gif);
+	margin-left: -10px;
+	background-position: 0px 0px;
+}
+#sidebar1 .pin_line {
+	margin-bottom: 10px;
+}
+/*-------------------End sidebar1 Styles--------------------*/
+/*sidebar2 Styles*/
+.thrColFixHdr  #sidebar2{
+	float: right; /* since this element is floated, a width must be given */
+	width: 190px; /* the actual width of this div, in standards-compliant browsers, or standards mode in Internet Explorer will include the padding and border in addition to the width */
+	background: #FFF; /* the background color will be displayed for the length of the content in the column, but no further */
+	padding: 0px; /* padding keeps the content of the div away from the edges */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 17px;
+	font-weight: normal;
+	font-variant: normal;
+}
+#container #sidebar2  p {
+	padding-left: 15px;
+	padding-right: 10px;
+	font-size: 11px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: 400;
+	font-variant: normal;
+	color: #333;
+}
+#sidebar2 #rightsidebar_top {
+	background-image: url(../images/s1_button.gif);
+	background-repeat: no-repeat;
+	height: 157px;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+#container #sidebar2 #rightsidebar_middle,
+#container #sidebar2 #rightsidebar_bottom
+{
+	background-image: url(../images/s2_button.gif);
+	background-repeat: no-repeat;
+	height: 185px;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+}
+#container #sidebar2 #rightsidebar_middle2{
+	background-image: url(../images/s3_button.gif);
+	background-repeat: no-repeat;
+	height: 205px;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+#container #sidebar2 #rightsidebar_top h3,
+#container #sidebar2 #rightsidebar_middle h3,
+#container #sidebar2 #rightsidebar_middle2 h3,
+#container #sidebar2 #rightsidebar_bottom h3 {
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #313131;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding-left: 15px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#container #sidebar2 #rightsidebar_top .right_image,
+#container #sidebar2 #rightsidebar_middle .right_image,
+#container #sidebar2 #rightsidebar_middle2 .right_image,
+#container #sidebar2 #rightsidebar_bottom .right_image{
+	margin-left: 9px;
+	margin-bottom: 8px;
+}
+#container #sidebar2 .rightsidebar_button {
+	display:block;
+	float: left;
+	height: 24px;
+	width: 131px;
+	margin-left: 15px;
+}
+#container #sidebar2 #rightsidebar_top .rightsidebar_button {
+	margin-top: 12px;
+}
+#container #sidebar2 #rightsidebar_bottom .rightsidebar_button {
+	margin-top: 12px;
+}
+#container #sidebar2 .rightsidebar_button a {
+	text-decoration: none;
+	border: none;
+	display: block;
+	height: 24px;
+	width: 131px;
+}
+#container #sidebar2 .rightsidebar_button #news_link{
+	background-image: url(../images/Buttons.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;	
+}
+#container #sidebar2 .rightsidebar_button #news_link:hover {
+	background-image: url(../images/Buttons.gif);
+	background-repeat: no-repeat;
+	background-position: 0px -33px;
+}
+#container #sidebar2 .rightsidebar_button .go_link{
+	background-image: url(../images/Buttons.gif);
+	background-repeat: no-repeat;
+	background-position: -283px 0px;	
+}
+#container #sidebar2 .rightsidebar_button .go_link:hover {
+	background-image: url(../images/Buttons.gif);
+	background-repeat: no-repeat;
+	background-position: -283px -33px;
+}
+#container #sidebar2 .rightsidebar_button #equip_link{
+	background-image: url(../images/Buttons.gif);
+	background-repeat: no-repeat;
+	background-position: -140px 0px;	
+}
+#container #sidebar2 .rightsidebar_button #equip_link:hover {
+	background-image: url(../images/Buttons.gif);
+	background-repeat: no-repeat;
+	background-position: -140px -33px;
+}
+
+#sidebar2 #rightsidebar_top form input {
+	background-image: url(../images/field.gif);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 167px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin-left: 7px;
+	font-size: 12pt;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+#sidebar2 .pin_line {
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+/*-------------------End sidebar2 Styles--------------------*/
+/*footer Styles*/
+.thrColFixHdr  #footer{
+	background:#DDDDDD url(../images/blueRepeat.gif) repeat-x;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	float: left;
+	width: 920px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	margin-right: auto;
+	margin-left: auto;
+} 
+.thrColFixHdr #footer  p{
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #FFF;
+}
+#container #footer #footer_nav {
+	display:block;
+	float: left;
+}
+#container #footer #footer_text {
+	display:block;
+	float: right;
+}
+.thrColFixHdr #container #footer p a,
+.thrColFixHdr #container #footer p a:visited,
+.thrColFixHdr #container #footer p a:active{
+	cursor: pointer;
+	text-decoration:none;
+	color:#FFF;
+}
+.thrColFixHdr #container #footer p a:hover {
+	color: #999;
+	cursor: pointer;
+	text-decoration:none;
+}
+/*-------------------End footer Styles--------------------*/
+/*Misc for reuse*/
+.clearfloat {
+	clear: both;
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+/*-------------------End Misc--------------------*/

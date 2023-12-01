@@ -1,0 +1,17 @@
+.custom-breadcrumb {
+	background: #F6F6F6;
+}
+.page-header.parallax {
+    padding: 250px 0 60px !important;
+}
+custom-effect img {
+    -webkit-transition: ease all 300ms;
+    -moz-transition: ease all 300ms;
+    -ms-transition: ease all 300ms;
+    transition: ease all 300ms;
+}
+
+.custom-effect:hover img {
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+}
