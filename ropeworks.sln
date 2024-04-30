@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ropeworks", "ropeworks\", "{28CA7D6B-22F1-486A-B7A7-91B9D634EBB4}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56211"
+		Debug.AspNetCompiler.PhysicalPath = "ropeworks\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56211\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56211"
+		Release.AspNetCompiler.PhysicalPath = "ropeworks\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56211\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56211"
+		SlnRelativePath = "ropeworks\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28CA7D6B-22F1-486A-B7A7-91B9D634EBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28CA7D6B-22F1-486A-B7A7-91B9D634EBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0A0A6B8-2905-492A-BBAD-B84B09E2F703}
+	EndGlobalSection
+EndGlobal
