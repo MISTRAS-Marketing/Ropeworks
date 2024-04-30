@@ -25,7 +25,7 @@ steps:
     appType: 'webApp'
     appName: 'ropeworks'
     deployToSlotOrASE: true
-    resourceGroupName: 'MISTRAS-Microsites'
+    resourceGroupName: 'mistras-brand-websites'
     slotName: 'staging'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
     deploymentMethod: 'zipDeploy'
